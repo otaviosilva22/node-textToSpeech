@@ -1,5 +1,5 @@
 # Text to Speech com Node.js
-### Aplicação desenvolvida com Node.js para transformação de texto em fala por meio da API Text to Speech do IBM Watson.
+Aplicação desenvolvida com Node.js para transformação de texto em fala por meio da API Text to Speech do IBM Watson.
 
 ## Tecnologias Utilizadas
 - [Node.js](https://nodejs.org/en/)
@@ -10,7 +10,7 @@
 - [Bootstrap](https://getbootstrap.com/)
 
 ## API Text to Speech - IBM Watson
-### Para utilizar a API é preciso criar uma conta na plataforma da <a href="https://www.ibm.com/br-pt/cloud/watson-text-to-speech">IBM</a> e requisitar o serviço no catálogo. Após isso, é necessário gerar uma chave e URL que serão aplicadas na autenticação abaixo:
+Para utilizar a API é preciso criar uma conta na plataforma da <a href="https://www.ibm.com/br-pt/cloud/watson-text-to-speech">IBM</a> e requisitar o serviço no catálogo. Após isso, é necessário gerar uma chave e URL que serão aplicadas na autenticação abaixo:
 
 ~~~JavaScript
 const textToSpeech = new TextToSpeechV1({
@@ -23,13 +23,13 @@ const textToSpeech = new TextToSpeechV1({
 
 ## Instalação das Dependências
 
-### Para instalar todas as dependências basta realizar o seguinte comando <strong>npm:</strong>
+Para instalar todas as dependências basta realizar o seguinte comando <strong>npm:</strong>
 ~~~
 npm install
 ~~~
 
 ## Banco de Dados
-### O banco de dados utilizado foi o MySQL, mas a manipulação foi feita com o Sequelize ORM.
+O banco de dados utilizado foi o MySQL, mas a manipulação foi feita com o Sequelize ORM.
 
 
 ### SQL de criação do banco:
@@ -66,13 +66,13 @@ node src/database/CreateCommentsDescriptions
 ~~~
 
 ## 🚀 Como Iniciar o Servidor
-### Para rodar o servidor basta executar:
+Para rodar o servidor basta executar:
 ~~~Bash
 node .
 ~~~
 
 ## Abrir Interface
-### A rota padrão para abrir a interface no navegador é:
+A rota padrão para abrir a interface no navegador é:
 ~~~Url
 http://localhost:3333/interface
 ~~~
